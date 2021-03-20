@@ -20,8 +20,13 @@ public class WrappedUp {
 		 */
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Guess what my favourite thing is. 5 characters, starts with w.");
-		// Now test if the guess was correct - ignore case
 		String guess = sc.next();
+		// Now test if the guess was correct - ignore case
+		if (guess.equals(myFave)) {
+			System.out.println("Called it!");
+		} else {
+			System.out.println("that is not it");
+		}
 
 	}// end guessing
 
