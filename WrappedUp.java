@@ -41,6 +41,7 @@ public class WrappedUp {
 
 	public static void main(String args[]) {
 		// Create WrappedUp object and test the methods
-
+		WrappedUp w = new WrappedUp();
+		w.guessMyFavouriteThing();
 	}
 }
