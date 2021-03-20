@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Favourite class to test a string object and it's methods.
@@ -22,6 +22,7 @@ public class WrappedUp {
 		System.out.println("Guess what my favourite thing is. 5 characters, starts with w.");
 		System.out.println(sc);
 		// Now test if the guess was correct - ignore case
+		String guess = sc.next();
 
 	}// end guessing
 
