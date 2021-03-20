@@ -27,7 +27,7 @@ public class WrappedUp {
 			guess = sc.next();
 		}
 		if (guess.equals(myFave)) {
-			System.out.println("Called it!");
+			System.out.println("Nailed it!");
 		}
 
 	}// end guessing
